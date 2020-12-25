@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+<style>
+    td {
+        text-align: center;
+        border: 1px solid black;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin: 10px;
+    }
+    
+    div {
+        display: block;
+        float: left;
+        clear: both;
+    }
+
+    button {
+        margin: 10px;
+    }
+    
+    ul{
+        outline: 1px solid black;
+        display: inline-block;
+        list-style-type: none;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    #basket {
+                outline: 1px solid black;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+
+    }
+</style>
+<body>
+    <div id="catalog"></div>
+    <div id="basket">
+        <h5 id="info"></h5>
+        <table id="products_in_basket"></table>
+        <button id="clear">Очистить корзину</button>
+    </div>
+</body>
+</html>
